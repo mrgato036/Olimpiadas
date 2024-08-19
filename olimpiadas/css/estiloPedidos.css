@@ -1,0 +1,61 @@
+     /* estilos generales para el fondo y el título */
+        body {
+            background-color: #f8f9fa;
+        }
+        h1 {
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        
+        /* estilo para la tabla, incluyendo bordes redondeados y sombra */
+        .table {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* color de fondo y texto para el encabezado de la tabla */
+        thead {
+            background-color: #343a40;
+            color: #fff;
+        }
+        
+        /* centrando el contenido de las celdas de la tabla */
+        td, th {
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        /* estilo personalizado para los botones */
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            border-radius: 20px;
+        }
+        
+        /* cambiando el color de fondo del boton al pasar el raton */
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+        
+        /* estilo para la barra lateral (sidebar) del usuario */
+        .sidebar {
+            background-color: #343a40; /* fondo oscuro */
+            padding: 20px; /* espaciado interno */
+            border-radius: 10px; /* bordes redondeados */
+            color: white; /* texto blanco */
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* sombra */
+            margin-right: 10px; /* margen derecho para separar de la tabla */
+        }
+        
+        /* estilo del titulo de la barra lateral */
+        .sidebar h3 {
+            color: #007bff; /* color azul para el titulo */
+            margin-bottom: 20px; /* separacion debajo del titulo */
+        }
+        
+        /* haciendo que el select y el boton ocupen todo el ancho de la barra lateral */
+        .sidebar select, .sidebar button {
+            width: 100%;
+            margin-bottom: 20px; /* separacion inferior entre los elementos */
+        }
